@@ -1,0 +1,31 @@
+{
+  "name": "kana.perf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jkanche/kana.perf.git"
+  },
+  "keywords": [
+    "kana",
+    "performance"
+  ],
+  "author": {
+    "name": "Jayaram Kancherla",
+    "email": "jayaram.kancherla@gmail.com",
+    "url": "https://www.jkanche.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jkanche/kana.perf/issues"
+  },
+  "homepage": "https://github.com/jkanche/kana.perf#readme",
+  "dependencies": {
+    "puppeteer": "^13.1.2",
+    "serve": "^13.0.2"
+  }
+}
