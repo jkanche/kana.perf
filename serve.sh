@@ -8,7 +8,7 @@ fi
 cd kana
 
 # make sure its upto date
-git pull origin perf
+git pull origin $branch
 
 # install npm dependencies
 npm install
