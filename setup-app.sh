@@ -1,5 +1,9 @@
+#!/bin/bash
+
 # clone the perf branch of the repo
 branch="perf"
+
+mkdir -p ./app-results
 
 if [ ! -d "./kana" ]; then
     git clone http://github.com/jkanche/kana -b $branch
