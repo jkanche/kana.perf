@@ -2,7 +2,8 @@ const puppeteer = require('puppeteer');
 const fs = require('fs');
 
 // modified from https://github.com/epiviz/epiviz-chart/blob/master/performance/benchmarks.js
-const files = ["tenx.h5"];
+// const files = ["zeisel.matrix.mtx.gz"];
+const files = ["bach_mammary.matrix.mtx.gz"];
 
 async function track_metrics(file) {
 
@@ -37,11 +38,13 @@ async function track_metrics(file) {
     await page.evaluate(() => document.getElementById('introSubmit').click());
 
     // Choose the 10x tab
-    await page.evaluate(() => document.getElementById('bp3-tab-title_undefined_tenx').click());
-    await page.waitForTimeout(100);
+    // await page.evaluate(() => document.getElementById('bp3-tab-title_undefined_tenx').click());
+    // await page.waitForTimeout(100);
 
     // Choose the input element and upload a sample H5 file
-    const inputUploadHandle = await page.$('#bp3-tab-panel_undefined_tenx > div > label > label > input[type=file]');
+    const mtx_input_sel = "#bp3-tab-panel_undefined_mtx > div > label:nth-child(1) > label > input[type=file]";
+    const h5_input_sel = "#bp3-tab-panel_undefined_tenx > div > label > label > input[type=file]"
+    const inputUploadHandle = await page.$(mtx_input_sel);
     inputUploadHandle.uploadFile(file);
     await page.waitForTimeout(100);
 
@@ -75,7 +78,7 @@ async function track_metrics(file) {
 
     console.log("capture screenshot before closing the browser");
     await page.screenshot({ path: `${file}_screenshot.png` });
-    console.log("screenshot stored as test.png");
+    console.log(`screenshot stored as ${file}_screenshot.png`);
 
     // close the browser
     await browser.close();
