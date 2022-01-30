@@ -1,0 +1,40 @@
+Initializing matrix... 10.621s
+Initializing gene annotation... 0.017s
+Computing QC metrics... 0.037s
+Computing QC thresholds... 0.001s
+Filtering cells... 0s
+Log-normalizing the counts... 0s
+Mean-variance modelling... 0.294s
+Principal components analysis... 4.64s
+Building the neighbor index... 1.185s
+Finding neighbors for clustering... 0.409s
+Finding neighbors for t-SNE... 1.651s
+Finding neighbors for UMAP... 0.516s
+SNN graph construction... 0.065s
+Multi-level clustering... 3.597s
+Marker detection... 2.816s
+UMAP calculation... 23.723s
+t-SNE calculation... 29.138s
+	Command being timed: "./build/scran -t 8 --skip-output ../data/bach-mammary/matrix.mtx.gz ../data/bach-mammary/features.tsv.gz"
+	User time (seconds): 112.32
+	System time (seconds): 0.60
+	Percent of CPU this job got: 232%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:48.55
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 991912
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 395617
+	Voluntary context switches: 202
+	Involuntary context switches: 432
+	Swaps: 0
+	File system inputs: 374072
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

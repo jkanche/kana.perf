@@ -1,0 +1,40 @@
+Initializing matrix... 29.449s
+Initializing gene annotation... 0.015s
+Computing QC metrics... 0.113s
+Computing QC thresholds... 0.004s
+Filtering cells... 0s
+Log-normalizing the counts... 0s
+Mean-variance modelling... 0.852s
+Principal components analysis... 10.692s
+Building the neighbor index... 3.321s
+Finding neighbors for clustering... 1.276s
+Finding neighbors for t-SNE... 4.678s
+Finding neighbors for UMAP... 1.559s
+SNN graph construction... 0.166s
+Multi-level clustering... 8.596s
+Marker detection... 11.046s
+UMAP calculation... 63.95s
+t-SNE calculation... 88.497s
+	Command being timed: "./build/scran -t 8 --skip-output ../data/ernst-sperm/matrix.mtx.gz ../data/ernst-sperm/features.tsv.gz"
+	User time (seconds): 325.63
+	System time (seconds): 1.52
+	Percent of CPU this job got: 232%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 2:20.54
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2582016
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1050080
+	Voluntary context switches: 237
+	Involuntary context switches: 1019
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 48
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

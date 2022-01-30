@@ -1,0 +1,40 @@
+Initializing matrix... 1.984s
+Initializing gene annotation... 0.005s
+Computing QC metrics... 0.006s
+Computing QC thresholds... 0s
+Filtering cells... 0s
+Log-normalizing the counts... 0s
+Mean-variance modelling... 0.062s
+Principal components analysis... 1.312s
+Building the neighbor index... 0.432s
+Finding neighbors for clustering... 0.129s
+Finding neighbors for t-SNE... 0.614s
+Finding neighbors for UMAP... 0.178s
+SNN graph construction... 0.024s
+Multi-level clustering... 0.863s
+Marker detection... 0.783s
+UMAP calculation... 8.944s
+t-SNE calculation... 10.942s
+	Command being timed: "./build/scran -t 8 --skip-output ../data/paul-hsc/matrix.mtx.gz ../data/paul-hsc/features.tsv.gz"
+	User time (seconds): 35.12
+	System time (seconds): 0.17
+	Percent of CPU this job got: 225%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:15.68
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 314648
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 115874
+	Voluntary context switches: 53
+	Involuntary context switches: 132
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

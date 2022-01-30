@@ -1,0 +1,40 @@
+Initializing matrix... 1.686s
+Initializing gene annotation... 0.004s
+Computing QC metrics... 0.006s
+Computing QC thresholds... 0s
+Filtering cells... 0s
+Log-normalizing the counts... 0s
+Mean-variance modelling... 0.08s
+Principal components analysis... 0.66s
+Building the neighbor index... 0.116s
+Finding neighbors for clustering... 0.028s
+Finding neighbors for t-SNE... 0.149s
+Finding neighbors for UMAP... 0.041s
+SNN graph construction... 0.005s
+Multi-level clustering... 0.092s
+Marker detection... 0.524s
+t-SNE calculation... 2.324s
+UMAP calculation... 2.621s
+	Command being timed: "./build/scran -t 8 --skip-output ../data/zeisel-brain/matrix.mtx.gz ../data/zeisel-brain/features.tsv.gz"
+	User time (seconds): 12.01
+	System time (seconds): 0.09
+	Percent of CPU this job got: 223%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:05.40
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 162036
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 68531
+	Voluntary context switches: 51
+	Involuntary context switches: 127
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

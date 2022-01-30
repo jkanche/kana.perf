@@ -1,0 +1,41 @@
+Initializing matrix... 9.395s
+Initializing gene annotation... 0.008s
+Computing QC metrics... 0.048s
+Computing QC thresholds... 0.011s
+Filtering cells... 0s
+Log-normalizing the counts... 0.001s
+Mean-variance modelling... 0.293s
+Principal components analysis... 7.329s
+Building the neighbor index... 7.098s
+Finding neighbors for clustering... 3.115s
+Finding neighbors for t-SNE... 13.122s
+Finding neighbors for UMAP... 3.86s
+SNN graph construction... 0.569s
+Multi-level clustering... 68.678s
+Marker detection... 10.187s
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+Command terminated by signal 6
+	Command being timed: "./build/scran -t 8 --skip-output ../data/zilionis-lung/matrix.mtx.gz ../data/zilionis-lung/features.tsv.gz"
+	User time (seconds): 509.47
+	System time (seconds): 16.99
+	Percent of CPU this job got: 328%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 2:40.46
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 29069740
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 14577167
+	Voluntary context switches: 314
+	Involuntary context switches: 2071
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 40
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
