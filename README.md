@@ -65,11 +65,8 @@ bash benchmark-cli.sh
 ```
 
 
-***Note: Modify the list of datasets needed to run in benchmark.js***
+***Note: Modify the list of datasets needed to run in benchmark-cli.js***
 
-For every dataset, the session generates two files, 
-
-- the metrics tracked by puppeteer and the custom analysis total time tracked in the app
-- a screenshot before ending the session
+For every dataset, the run generates  a log file of various metrics
 
 Have fun analyzing!!
