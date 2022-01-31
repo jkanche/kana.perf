@@ -1,38 +1,38 @@
-Initializing matrix... 27.862s
-Initializing gene annotation... 0.021s
-Computing QC metrics... 0.117s
+Initializing matrix... 30.497s
+Initializing gene annotation... 0.015s
+Computing QC metrics... 0.101s
 Computing QC thresholds... 0.003s
 Filtering cells... 0s
 Log-normalizing the counts... 0s
-Mean-variance modelling... 0.923s
-Principal components analysis... 10.17s
-Building the neighbor index... 3.14s
-Finding neighbors for clustering... 1.376s
-Finding neighbors for t-SNE... 5.077s
-Finding neighbors for UMAP... 1.66s
-SNN graph construction... 0.201s
-Multi-level clustering... 9.591s
-Marker detection... 11.317s
-UMAP calculation... 66.03s
-t-SNE calculation... 89.898s
+Mean-variance modelling... 0.849s
+Principal components analysis... 11.403s
+Building the neighbor index... 3.401s
+Finding neighbors for clustering... 1.257s
+Finding neighbors for t-SNE... 4.349s
+Finding neighbors for UMAP... 1.594s
+SNN graph construction... 0.17s
+Multi-level clustering... 8.575s
+Marker detection... 9.548s
+t-SNE calculation... 58.217s
+UMAP calculation... 64.756s
 	Command being timed: "./build/scran -t 8 --skip-output ../data/ernst-sperm/matrix.mtx.gz ../data/ernst-sperm/features.tsv.gz"
-	User time (seconds): 333.25
-	System time (seconds): 1.77
-	Percent of CPU this job got: 238%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 2:20.33
+	User time (seconds): 294.48
+	System time (seconds): 1.56
+	Percent of CPU this job got: 250%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:58.32
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 2582728
+	Maximum resident set size (kbytes): 2572364
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 1050210
-	Voluntary context switches: 270
-	Involuntary context switches: 1265
+	Minor (reclaiming a frame) page faults: 1047551
+	Voluntary context switches: 266
+	Involuntary context switches: 1196
 	Swaps: 0
-	File system inputs: 1017720
-	File system outputs: 48
+	File system inputs: 0
+	File system outputs: 40
 	Socket messages sent: 0
 	Socket messages received: 0
 	Signals delivered: 0

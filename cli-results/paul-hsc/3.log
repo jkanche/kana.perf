@@ -1,35 +1,35 @@
-Initializing matrix... 2.175s
+Initializing matrix... 2.149s
 Initializing gene annotation... 0.006s
 Computing QC metrics... 0.007s
 Computing QC thresholds... 0s
 Filtering cells... 0s
 Log-normalizing the counts... 0s
-Mean-variance modelling... 0.066s
-Principal components analysis... 1.51s
-Building the neighbor index... 0.481s
-Finding neighbors for clustering... 0.138s
-Finding neighbors for t-SNE... 0.626s
-Finding neighbors for UMAP... 0.185s
+Mean-variance modelling... 0.067s
+Principal components analysis... 1.341s
+Building the neighbor index... 0.404s
+Finding neighbors for clustering... 0.126s
+Finding neighbors for t-SNE... 0.588s
+Finding neighbors for UMAP... 0.175s
 SNN graph construction... 0.024s
-Multi-level clustering... 0.942s
-Marker detection... 0.788s
-UMAP calculation... 8.598s
-t-SNE calculation... 10.689s
+Multi-level clustering... 0.922s
+Marker detection... 0.762s
+t-SNE calculation... 8.619s
+UMAP calculation... 9.418s
 	Command being timed: "./build/scran -t 8 --skip-output ../data/paul-hsc/matrix.mtx.gz ../data/paul-hsc/features.tsv.gz"
-	User time (seconds): 35.25
+	User time (seconds): 33.10
 	System time (seconds): 0.20
-	Percent of CPU this job got: 222%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:15.90
+	Percent of CPU this job got: 232%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:14.30
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 314412
+	Maximum resident set size (kbytes): 313500
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 115876
-	Voluntary context switches: 74
-	Involuntary context switches: 197
+	Minor (reclaiming a frame) page faults: 115646
+	Voluntary context switches: 49
+	Involuntary context switches: 201
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 8

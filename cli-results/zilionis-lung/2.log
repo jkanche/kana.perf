@@ -1,38 +1,37 @@
-Initializing matrix... 10.596s
-Initializing gene annotation... 0.016s
-Computing QC metrics... 0.043s
-Computing QC thresholds... 0.013s
+Initializing matrix... 10.112s
+Initializing gene annotation... 0.009s
+Computing QC metrics... 0.045s
+Computing QC thresholds... 0.011s
 Filtering cells... 0s
-Log-normalizing the counts... 0.002s
-Mean-variance modelling... 0.296s
-Principal components analysis... 8.078s
-Building the neighbor index... 7.821s
-Finding neighbors for clustering... 3.011s
-Finding neighbors for t-SNE... 12.849s
-Finding neighbors for UMAP... 3.841s
-SNN graph construction... 0.577s
-Multi-level clustering... 65.557s
-Marker detection... 10.194s
-terminate called after throwing an instance of 'std::bad_alloc'
-  what():  std::bad_alloc
-Command terminated by signal 6
+Log-normalizing the counts... 0.001s
+Mean-variance modelling... 0.275s
+Principal components analysis... 7.112s
+Building the neighbor index... 6.947s
+Finding neighbors for clustering... 3.045s
+Finding neighbors for t-SNE... 13.142s
+Finding neighbors for UMAP... 3.882s
+SNN graph construction... 0.557s
+Multi-level clustering... 64.481s
+Marker detection... 10.394s
+t-SNE calculation... 137.623s
+UMAP calculation... 143.967s
 	Command being timed: "./build/scran -t 8 --skip-output ../data/zilionis-lung/matrix.mtx.gz ../data/zilionis-lung/features.tsv.gz"
-	User time (seconds): 505.11
-	System time (seconds): 17.35
-	Percent of CPU this job got: 321%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 2:42.38
+	User time (seconds): 579.10
+	System time (seconds): 1.94
+	Percent of CPU this job got: 308%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 3:08.64
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 29069676
+	Maximum resident set size (kbytes): 2663128
 	Average resident set size (kbytes): 0
-	Major (requiring I/O) page faults: 17
-	Minor (reclaiming a frame) page faults: 14577144
-	Voluntary context switches: 458
-	Involuntary context switches: 1490
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1271382
+	Voluntary context switches: 302
+	Involuntary context switches: 2323
 	Swaps: 0
-	File system inputs: 339768
+	File system inputs: 0
 	File system outputs: 40
 	Socket messages sent: 0
 	Socket messages received: 0

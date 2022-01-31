@@ -1,37 +1,37 @@
-Initializing matrix... 1.946s
-Initializing gene annotation... 0.011s
-Computing QC metrics... 0.005s
+Initializing matrix... 1.868s
+Initializing gene annotation... 0.005s
+Computing QC metrics... 0.006s
 Computing QC thresholds... 0s
 Filtering cells... 0s
 Log-normalizing the counts... 0s
 Mean-variance modelling... 0.064s
-Principal components analysis... 1.282s
-Building the neighbor index... 0.424s
-Finding neighbors for clustering... 0.141s
-Finding neighbors for t-SNE... 0.689s
-Finding neighbors for UMAP... 0.2s
-SNN graph construction... 0.026s
-Multi-level clustering... 0.932s
-Marker detection... 0.751s
-UMAP calculation... 8.527s
-t-SNE calculation... 10.462s
+Principal components analysis... 1.287s
+Building the neighbor index... 0.408s
+Finding neighbors for clustering... 0.127s
+Finding neighbors for t-SNE... 0.615s
+Finding neighbors for UMAP... 0.175s
+SNN graph construction... 0.023s
+Multi-level clustering... 0.837s
+Marker detection... 0.726s
+t-SNE calculation... 7.875s
+UMAP calculation... 8.525s
 	Command being timed: "./build/scran -t 8 --skip-output ../data/paul-hsc/matrix.mtx.gz ../data/paul-hsc/features.tsv.gz"
-	User time (seconds): 34.82
-	System time (seconds): 0.20
-	Percent of CPU this job got: 229%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:15.24
+	User time (seconds): 31.09
+	System time (seconds): 0.15
+	Percent of CPU this job got: 238%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:13.10
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 314836
+	Maximum resident set size (kbytes): 313712
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 115925
-	Voluntary context switches: 52
-	Involuntary context switches: 217
+	Minor (reclaiming a frame) page faults: 115650
+	Voluntary context switches: 37
+	Involuntary context switches: 109
 	Swaps: 0
-	File system inputs: 70136
+	File system inputs: 0
 	File system outputs: 8
 	Socket messages sent: 0
 	Socket messages received: 0

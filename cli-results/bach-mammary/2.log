@@ -1,35 +1,35 @@
-Initializing matrix... 9.975s
+Initializing matrix... 10.024s
 Initializing gene annotation... 0.009s
-Computing QC metrics... 0.039s
+Computing QC metrics... 0.04s
 Computing QC thresholds... 0.001s
 Filtering cells... 0s
 Log-normalizing the counts... 0s
-Mean-variance modelling... 0.312s
-Principal components analysis... 4.444s
-Building the neighbor index... 1.119s
-Finding neighbors for clustering... 0.433s
-Finding neighbors for t-SNE... 1.772s
-Finding neighbors for UMAP... 0.565s
-SNN graph construction... 0.064s
-Multi-level clustering... 3.512s
-Marker detection... 3.006s
-UMAP calculation... 22.964s
-t-SNE calculation... 28.038s
+Mean-variance modelling... 0.299s
+Principal components analysis... 4.547s
+Building the neighbor index... 1.111s
+Finding neighbors for clustering... 0.428s
+Finding neighbors for t-SNE... 1.734s
+Finding neighbors for UMAP... 0.541s
+SNN graph construction... 0.066s
+Multi-level clustering... 3.58s
+Marker detection... 3.082s
+t-SNE calculation... 20.686s
+UMAP calculation... 24.256s
 	Command being timed: "./build/scran -t 8 --skip-output ../data/bach-mammary/matrix.mtx.gz ../data/bach-mammary/features.tsv.gz"
-	User time (seconds): 112.87
-	System time (seconds): 0.51
-	Percent of CPU this job got: 242%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:46.74
+	User time (seconds): 106.29
+	System time (seconds): 0.71
+	Percent of CPU this job got: 248%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:43.04
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 991924
+	Maximum resident set size (kbytes): 988352
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 395626
-	Voluntary context switches: 155
-	Involuntary context switches: 521
+	Minor (reclaiming a frame) page faults: 394741
+	Voluntary context switches: 194
+	Involuntary context switches: 527
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 24

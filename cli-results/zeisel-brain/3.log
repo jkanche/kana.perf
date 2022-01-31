@@ -1,35 +1,35 @@
-Initializing matrix... 1.708s
-Initializing gene annotation... 0.004s
-Computing QC metrics... 0.006s
+Initializing matrix... 1.966s
+Initializing gene annotation... 0.005s
+Computing QC metrics... 0.007s
 Computing QC thresholds... 0s
 Filtering cells... 0s
 Log-normalizing the counts... 0s
 Mean-variance modelling... 0.08s
-Principal components analysis... 0.668s
-Building the neighbor index... 0.116s
-Finding neighbors for clustering... 0.028s
-Finding neighbors for t-SNE... 0.139s
-Finding neighbors for UMAP... 0.038s
+Principal components analysis... 0.801s
+Building the neighbor index... 0.133s
+Finding neighbors for clustering... 0.032s
+Finding neighbors for t-SNE... 0.142s
+Finding neighbors for UMAP... 0.04s
 SNN graph construction... 0.005s
-Multi-level clustering... 0.092s
-Marker detection... 0.517s
-t-SNE calculation... 2.239s
-UMAP calculation... 2.57s
+Multi-level clustering... 0.083s
+Marker detection... 0.503s
+t-SNE calculation... 1.755s
+UMAP calculation... 2.463s
 	Command being timed: "./build/scran -t 8 --skip-output ../data/zeisel-brain/matrix.mtx.gz ../data/zeisel-brain/features.tsv.gz"
-	User time (seconds): 11.75
+	User time (seconds): 11.57
 	System time (seconds): 0.10
-	Percent of CPU this job got: 220%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:05.37
+	Percent of CPU this job got: 205%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:05.68
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 162288
+	Maximum resident set size (kbytes): 162096
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 68531
-	Voluntary context switches: 42
-	Involuntary context switches: 100
+	Minor (reclaiming a frame) page faults: 68477
+	Voluntary context switches: 49
+	Involuntary context switches: 130
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 8

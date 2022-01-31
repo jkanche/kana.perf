@@ -1,35 +1,35 @@
-Initializing matrix... 10.152s
-Initializing gene annotation... 0.011s
-Computing QC metrics... 0.042s
-Computing QC thresholds... 0.002s
+Initializing matrix... 11.5s
+Initializing gene annotation... 0.01s
+Computing QC metrics... 0.04s
+Computing QC thresholds... 0.001s
 Filtering cells... 0s
 Log-normalizing the counts... 0s
-Mean-variance modelling... 0.324s
-Principal components analysis... 4.473s
-Building the neighbor index... 1.121s
-Finding neighbors for clustering... 0.42s
-Finding neighbors for t-SNE... 1.71s
-Finding neighbors for UMAP... 0.545s
-SNN graph construction... 0.065s
-Multi-level clustering... 3.557s
-Marker detection... 3.067s
-UMAP calculation... 24.187s
-t-SNE calculation... 29.738s
+Mean-variance modelling... 0.296s
+Principal components analysis... 4.487s
+Building the neighbor index... 1.103s
+Finding neighbors for clustering... 0.415s
+Finding neighbors for t-SNE... 1.682s
+Finding neighbors for UMAP... 0.524s
+SNN graph construction... 0.062s
+Multi-level clustering... 3.427s
+Marker detection... 3.068s
+t-SNE calculation... 19.033s
+UMAP calculation... 22.735s
 	Command being timed: "./build/scran -t 8 --skip-output ../data/bach-mammary/matrix.mtx.gz ../data/bach-mammary/features.tsv.gz"
-	User time (seconds): 115.32
-	System time (seconds): 0.59
-	Percent of CPU this job got: 238%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:48.58
+	User time (seconds): 104.17
+	System time (seconds): 0.64
+	Percent of CPU this job got: 244%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:42.84
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 992024
+	Maximum resident set size (kbytes): 988400
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 395627
-	Voluntary context switches: 161
-	Involuntary context switches: 386
+	Minor (reclaiming a frame) page faults: 394745
+	Voluntary context switches: 207
+	Involuntary context switches: 388
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 16

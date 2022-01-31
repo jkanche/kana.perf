@@ -1,36 +1,35 @@
-Initializing matrix... 9.395s
+Initializing matrix... 9.078s
 Initializing gene annotation... 0.008s
-Computing QC metrics... 0.048s
-Computing QC thresholds... 0.011s
+Computing QC metrics... 0.047s
+Computing QC thresholds... 0.01s
 Filtering cells... 0s
 Log-normalizing the counts... 0.001s
-Mean-variance modelling... 0.293s
-Principal components analysis... 7.329s
-Building the neighbor index... 7.098s
-Finding neighbors for clustering... 3.115s
-Finding neighbors for t-SNE... 13.122s
-Finding neighbors for UMAP... 3.86s
-SNN graph construction... 0.569s
-Multi-level clustering... 68.678s
-Marker detection... 10.187s
-terminate called after throwing an instance of 'std::bad_alloc'
-  what():  std::bad_alloc
-Command terminated by signal 6
+Mean-variance modelling... 0.279s
+Principal components analysis... 6.927s
+Building the neighbor index... 6.789s
+Finding neighbors for clustering... 3.071s
+Finding neighbors for t-SNE... 13.099s
+Finding neighbors for UMAP... 3.72s
+SNN graph construction... 0.531s
+Multi-level clustering... 62.737s
+Marker detection... 9.955s
+t-SNE calculation... 135.528s
+UMAP calculation... 138.843s
 	Command being timed: "./build/scran -t 8 --skip-output ../data/zilionis-lung/matrix.mtx.gz ../data/zilionis-lung/features.tsv.gz"
-	User time (seconds): 509.47
-	System time (seconds): 16.99
-	Percent of CPU this job got: 328%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 2:40.46
+	User time (seconds): 566.14
+	System time (seconds): 1.90
+	Percent of CPU this job got: 312%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 3:01.96
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 29069740
+	Maximum resident set size (kbytes): 2662988
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 14577167
-	Voluntary context switches: 314
-	Involuntary context switches: 2071
+	Minor (reclaiming a frame) page faults: 1271384
+	Voluntary context switches: 297
+	Involuntary context switches: 1901
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 40
