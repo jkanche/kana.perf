@@ -4,7 +4,7 @@ const fs = require('fs');
 // modified from https://github.com/epiviz/epiviz-chart/blob/master/performance/benchmarks.js
 // const files = ["zeisel.matrix.mtx.gz"];
 const datasets = ["zeisel-brain", 
-    // "zilionis-lung",
+    "zilionis-lung",
     "paul-hsc", "ernst-sperm", "bacher-tcell",
     "bach-mammary"
 ];
