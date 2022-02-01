@@ -14,6 +14,7 @@ process_app_results <- function(dir) {
     
     metrics =  jsonlite::fromJSON(file.path(dir, f))
     fres[["time"]] <- metrics[["CustomTotalAnalysisTime"]] / 1000
+    fres["WasmMemory"] <- metrics[["CustomWasmMemUsage"]] / (1024 ^ 2)
     fres[["jsTotalHeapSize"]] <- metrics[["JSHeapTotalSize"]] / (1024 ^ 2)
     fres[["JSHeapUsedSize"]] <- metrics[["JSHeapUsedSize"]] / (1024 ^ 2)
     
@@ -44,7 +45,7 @@ process_cli_results <- function(dir) {
       usertime <- metrics[22]
       memory <- metrics[27]
       
-      fres[["time"]] <- as.numeric(strsplit(usertime, ":")[[1]][6])
+      fres[["time"]] <- (as.numeric(strsplit(usertime, ":")[[1]][5]) * 60) + as.numeric(strsplit(usertime, ":")[[1]][6])
       
       fres[["maxResidentSetSize"]] <- as.numeric(strsplit(memory, ":")[[1]][2]) / (1024 ^ 1)
       
@@ -69,7 +70,7 @@ rownames(df_app) <- NULL
 
 res <- df_app %>% 
   unnest() %>%
-  select(dataset, time, jsTotalHeapSize, JSHeapUsedSize) %>%
+  select(dataset, time, WasmMemory) %>%
   group_by(dataset) %>% 
   summarise_each(funs(mean, std.error))
 

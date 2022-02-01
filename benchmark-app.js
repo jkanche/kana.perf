@@ -31,7 +31,7 @@ async function track_metrics(datasets) {
             console.log("run: ", i);
 
             const page = await browser.newPage();
-            var analysisTime;
+            var analysisTime, memUsage;
 
             let path = `./data/${ds}`;
         
@@ -87,11 +87,13 @@ async function track_metrics(datasets) {
             console.log("waiting for the kana-done event...");
             let resp = await waitForEvent(page, "kana-done", 50000);
             analysisTime = JSON.parse(resp)["total_time"];
+            memUsage = JSON.parse(resp)["usage"];
             console.log("done!!!");
         
             console.log("capture session metrics");
             let metrics = await page.metrics();
             metrics["CustomTotalAnalysisTime"] = analysisTime;
+            metrics["CustomWasmMemUsage"] = memUsage;
             // console.log(JSON.stringify(metrics));
         
             fs.writeFileSync(`./app-results/${ds}_${i}_metrics.json`, JSON.stringify(metrics));
